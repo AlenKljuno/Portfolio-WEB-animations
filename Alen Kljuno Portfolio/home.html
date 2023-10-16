@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alen Kljuno Portfolio</title>
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+ <link rel="stylesheet" href="style.css">
+ <script src="https://kit.fontawesome.com/85947a2db5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/alenlogonovi.png" class="logo">
+                <ul id="sidemenu" class="wrapp2">
+                    <div class="wrapp-demo2">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Info</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="work2.html" target="_blank">Work Gallery</a></li>
+                </div>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text wrapp" id="animacija">
+                <p class="wrapp-demo">Graphic <span style="color: #ff004f;">Design</span> Student</p>
+                <h1>Hi, I'm <span>Alen</span> Kljuno,<br> Graphic Designer <br> from <span>Sarajevo</span></h1>
+            </div>
+        </div>
+    </div>
+<!--------About----------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/alenuser.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Personal <span style="color: #ff004f;">Info</span></h1>
+                    <p> 22 year old Student of Graphic Design at International Burch University Sarajevo. I am very passionate when it comes to Graphic Design and interested in every aspect of Graphic Design. Always open to new challenges and always eager to learn new stuff.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span style="color: #ff004f;">Brand Identity</span><br>Logo design, business card design</li>
+                        <li><span style="color: #ff004f;">Web Development</span><br>Frontend Development</li>
+                        <li><span style="color: #ff004f;">Visual Design</span><br>Stuning Visuals for Social Media</li>
+                        <li><span style="color: #ff004f;">Poster Design</span><br>Stuning Posters for Social Media and Marketing</li>
+                        <li><span style="color: #ff004f;">English</span><br>Professional knowledge both spoken and writen</li>
+                    </ul>
+                </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span style="color: #ff004f;">Wolf Media d.o.o</span><br>Graphic Design Intern</li>
+                        <li><span style="color: #ff004f;">Freelance</span><br>Graphic Design</li>
+                    </ul>
+                </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span style="color: #ff004f;">IBU</span><br>Bachelor of Graphic Design and Multimedia</li>
+                        <li><span style="color: #ff004f;">ITAcademy</span><br>Frontend Development, UI UX</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title contact-left">My <span style="color: #ff004f;">Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I am able to design stuning Web pages and also to code them using HTML CSS and JavaScript.</p>
+            </div>
+             <div>
+                <i class="fa-solid fa-hashtag"></i>
+                <h2>Visual Design</h2>
+                <p>As a student of Graphic Design this is my main responsibility, creating stunning visuals for marketing purposes on daily basis using Photoshop, Illustrator and many other softwares.</p>
+            </div>
+             <div>
+                <i class="fa-solid fa-blog"></i>
+                <h2>Brand Identity</h2>
+                <p>Every company needs a brand identity, let me help You in creating Your own and expandig Your business.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio----------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title contact-left">Work <span style="color: #ff004f;">Examples</span></h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/gelo-revoice-remake.png">
+            <div class="layer">
+                <h3>Social Media Visual</h3>
+                <p>Creating stuning marketing visual for pharmaceutic product. Combination of photo and editing manipulation.</p>
+                <a href="work2.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/herbion-environment.png">
+            <div class="layer">
+                <h3>Social Media Visual</h3>
+                <p>Putting the product in it's own environment can be excellent choice for visual if done and blended correctly.</p>
+                <a href="work2.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Salvit-beta-glukan-sirup-remade.png">
+            <div class="layer">
+                <h3>Social Media Visual</h3>
+                <p>Creating environment from scratch is a lot harder process than just putting the product in already existing environment, but it is so much more eye pleasing.</p>
+                <a href="work2.html"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="work2.html" class="btn">See more</a>
+</div>
+</div>
+<!--------portfolio----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span style="color: #ff004f;">Me</span></h1>
+                <p style="color: #949494;">Even if my services don't match with Your needs, feel free to send an e-mail or to give a call,<br> we can always figure something out because creativity should never have limits! <br>Always available on WhatsApp</p>
+                <p><i class="fas fa-paper-plane"></i> alenkljuno@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +38762256853</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/alen-kljuno-b0a99b209/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/creative.samura1/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/alenala.kljuno?locale=bs_BA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Alen Kljuno CV PDF.pdf" download class="btn">Download my CV</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Alen Kljuno 2023</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script>
+    var loader = document.getElementById('preloader');
+    window.addEventListener('load', function() {
+        loader.style.display = 'none';
+    })
+</script>
+</body>
+</html>
